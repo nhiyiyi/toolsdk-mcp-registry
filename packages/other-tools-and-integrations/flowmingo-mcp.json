@@ -12,15 +12,7 @@
     {
       "type": "streamable-http",
       "url": "https://mcp.flowmingo.ai/mcp",
-      "auth": {
-        "type": "oauth2",
-        "scopes": [
-          "read_hiring",
-          "read_candidates",
-          "write_pipeline",
-          "invite_candidates"
-        ]
-      }
+      "auth": { "type": "oauth2" }
     }
   ]
 }
